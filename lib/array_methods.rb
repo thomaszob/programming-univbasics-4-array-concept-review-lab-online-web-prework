@@ -13,8 +13,8 @@ maxNum = 0
   if items > maxNum
     maxNum = items
   end
-return items
 }
+return maxNum
 end
 
 def find_min_value(array)
