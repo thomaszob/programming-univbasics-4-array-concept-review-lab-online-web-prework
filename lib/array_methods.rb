@@ -18,5 +18,8 @@ return maxNum
 end
 
 def find_min_value(array)
-  # Add your solution here
+minNum = array[1] 
+  array.each {|items|
+  if items 
+}
 end
