@@ -20,6 +20,9 @@ end
 def find_min_value(array)
 minNum = array[0] 
   array.each {|items|
-  if items 
+  if items < minNum
+    minNum = items
+  end
 }
+return minNum
 end
